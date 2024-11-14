@@ -1,0 +1,94 @@
+body{
+    margin :0;
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+
+
+.password-generator{
+    display: flex;
+    flex-direction: column;    
+    margin:50px auto; 
+    padding:2rem;             
+    width:550px;
+    height: 550px;
+    background-color: #1F2937;
+    
+}
+#title{
+    padding: 2rem auto;
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:white;
+    position: relative;
+    
+}
+#password-span{
+    color:#4ADF86;
+}
+
+
+#message{
+    margin-top:15px;
+    color: #d5d4d8;
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+
+.add-ons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:50px;
+    color:aliceblue;
+}
+
+button{
+    margin-top:50px;
+    padding:10px 20px;
+    background-color: #4ADF86;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+hr{
+    width:88%;
+    border:none;
+    margin-top:60px;
+    border-bottom: 1px solid #2f3e53;
+    opacity: 90%;
+}
+
+ .password-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:50px;
+    
+ }
+
+ .password-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:220px;
+    height:41px;    
+    background-color: #273549;
+    border-radius: 5px; 
+    font-size: medium; 
+    letter-spacing: 0.2em;  
+    color:#4ADF86
+ }
+
+
